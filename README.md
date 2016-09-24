@@ -16,7 +16,7 @@ machine:
   environment:
     PKG_VERSION: 3.5.2
     PKG_NAME: circle-pyenv-python-$PKG_VERSION
-    PKG_INSTALL_DIR: /home/ubuntu/.pyenv/versions/$PKG_VERSION
+    PKG_INSTALL_DIR: /opt/circleci/.pyenv/versions/$PKG_VERSION
 
 dependencies:
   override:
